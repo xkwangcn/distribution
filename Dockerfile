@@ -6,8 +6,8 @@ ENV DISTRIBUTION_DIR /go/src/github.com/distribution/distribution
 ENV BUILDTAGS include_oss include_gcs
 
 ARG GOOS=linux
-ARG GOARCH=amd64
-ARG GOARM=6
+ARG GOARCH=s390x
+#ARG GOARM=6
 ARG VERSION
 ARG REVISION
 
